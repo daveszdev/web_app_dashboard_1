@@ -8,6 +8,10 @@
   --secondary: #D4A373;
 }
 
+.bell img:hover {
+	transform: rotate(20deg);
+	transform-origin: 50% 50%;
+}
 
 body {
   margin: 0;
@@ -116,9 +120,9 @@ main {
   grid-template-rows: auto;
   grid-template-columns: 100%;
   grid-template-areas:
-    "traffic"
-    "alert"
 		"main-header"
+    "alert"
+		"traffic"
     "daily"
     "mobile"
     "social"
